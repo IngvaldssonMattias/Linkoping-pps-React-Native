@@ -9,7 +9,7 @@ const Timer = () => {
   const { timeLeft, mode, isRunning, setIsRunning, reset } = useSimpleTimer();
 
   return (
-    <SafeAreaProvider>
+    
       <SafeAreaView>
         <View style={Styles.container}>
           <View style={Styles.circle}>
@@ -53,7 +53,7 @@ const Timer = () => {
           </View>
         </View>
       </SafeAreaView>
-    </SafeAreaProvider>
+    
   );
 };
 
